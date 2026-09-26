@@ -383,11 +383,6 @@ if ($profissional && !empty($profissional['portfolio'])) {
                                                 Conversar pelo WhatsApp
                                             </span>
 
-                                            <i
-                                                class="bi bi-arrow-up-right"
-                                                aria-hidden="true"
-                                            ></i>
-
                                         </a>
 
                                     <?php endif; ?>
@@ -410,11 +405,6 @@ if ($profissional && !empty($profissional['portfolio'])) {
                                             <span>
                                                 Ver perfil no Instagram
                                             </span>
-
-                                            <i
-                                                class="bi bi-arrow-up-right"
-                                                aria-hidden="true"
-                                            ></i>
 
                                         </a>
 

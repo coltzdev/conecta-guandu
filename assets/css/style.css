@@ -159,12 +159,17 @@ p {
 }
 
 .navbar-principal .navbar-toggler {
-    border: 1px solid var(--cor-borda);
-    border-radius: 6px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .navbar-principal .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.2rem rgba(30, 42, 56, 0.12);
+    box-shadow: none;
+}
+
+.navbar-principal .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
 }
 
 /* Apresentação da Home */
@@ -461,10 +466,14 @@ p {
     background-color: var(--cor-fundo);
 }
 
-.categoria-menu:hover .categoria-submenu,
-.categoria-menu:focus-within .categoria-submenu,
 .categoria-menu.aberto .categoria-submenu {
     display: block;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .categoria-menu:hover .categoria-submenu {
+        display: block;
+    }
 }
 
 /* Como funciona */
@@ -1284,7 +1293,7 @@ p {
     display: grid;
     min-height: 54px;
     padding: 0.65rem 0.8rem;
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr);
     gap: 0.65rem;
     align-items: center;
     border: 0;
@@ -1300,10 +1309,6 @@ p {
 
 .perfil-contato-botao > i:first-child {
     font-size: 1.2rem;
-}
-
-.perfil-contato-botao > i:last-child {
-    font-size: 0.8rem;
 }
 
 .perfil-contato-botao:hover,
