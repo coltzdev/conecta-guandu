@@ -212,19 +212,6 @@ if ($profissional && !empty($profissional['portfolio'])) {
 
         <div class="container">
 
-            <a
-                class="btn-voltar-profissionais"
-                href="profissionais.php"
-            >
-                <i
-                    class="bi bi-arrow-left"
-                    aria-hidden="true"
-                ></i>
-
-                Voltar para profissionais
-            </a>
-
-
             <?php if ($profissional): ?>
 
                 <article class="perfil-profissional">

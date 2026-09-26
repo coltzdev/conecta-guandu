@@ -1101,30 +1101,6 @@ p {
     background-color: var(--cor-fundo);
 }
 
-.btn-voltar-profissionais {
-    display: inline-flex;
-    min-height: 40px;
-    padding: 0.55rem 0.85rem;
-    align-items: center;
-    justify-content: center;
-    gap: 0.45rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #CDD2D8;
-    border-radius: 6px;
-    color: var(--cor-principal);
-    background-color: transparent;
-    font-size: 0.875rem;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.btn-voltar-profissionais:hover,
-.btn-voltar-profissionais:focus {
-    border-color: var(--cor-destaque-escuro);
-    color: #FFFFFF;
-    background-color: var(--cor-destaque-escuro);
-}
-
 .perfil-profissional {
     overflow: hidden;
     border: 1px solid var(--cor-borda);
@@ -2231,10 +2207,6 @@ p {
 
     .pagina-perfil {
         padding: 2rem 0 3.5rem;
-    }
-
-    .btn-voltar-profissionais {
-        width: 100%;
     }
 
     .perfil-topo {
